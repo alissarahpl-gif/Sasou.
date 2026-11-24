@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sasou</title> 
+  <!-- CSS -->
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link type="text/css" rel="stylesheet" href="style.css"/> 
+  <link rel="icon" type="image/x-icon" href="flawer.jpeg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap" rel="stylesheet">
+</head>
+    
+<body class="thankyou-page">
+
+  <div class="topnav" id="myTopnav">
+    <a href="index.html">Home</a>
+    <a href="aboutme.html">About</a>
+    <a href="work.html">Art Work</a>
+    <a href="myprocess.html">Process</a>
+    <a href="contactme.html" class="active">Contact Me</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  </script>
